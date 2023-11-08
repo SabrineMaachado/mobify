@@ -10,14 +10,16 @@ dependencies:
   flutter:
     sdk: flutter
   carousel_slider: ^4.0.0
-
   cupertino_icons: ^1.0.2
+  fluttertoast: ^8.0.7
 
 dev_dependencies:
   flutter_test:
-    sdk: flutter
-
+    sdk: flutter  # Pacote flutter_test adicionado corretamente
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - lib/assets/
