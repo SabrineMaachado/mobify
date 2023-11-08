@@ -1,7 +1,7 @@
-// parking_spot_model.dart
 class ParkingSpot {
   final int spotNumber;
-  bool isOccupied;
+  bool available;
+  bool number;
 
-  ParkingSpot(this.spotNumber, this.isOccupied);
+  ParkingSpot(this.spotNumber, {required this.available, required this.number});
 }
